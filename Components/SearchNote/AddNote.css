@@ -1,0 +1,14 @@
+.flexible-textbox-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+  }
+  
+  .flexible-textbox {
+    width: 100%;
+    min-height: 50px; 
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 14px;
+    resize: vertical; 
+  }
